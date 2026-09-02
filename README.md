@@ -1,0 +1,4 @@
+## Data
+The necessary data to run the analysis in `redistricting_changes.ipynb` should be placed in a `data/` directory. You'll need:
+  - Block equivalency files for the 119th and 120th Congresses. You can find them [here](https://www.census.gov/geographies/mapping-files/2025/dec/rdo/119-congressional-district-bef.html) and [here](https://www.census.gov/geographies/mapping-files/2027/dec/rdo/120-congressional-district-bef.html), respectively. You can extract the state-level text files from the 120th Congress file into the `data/` directory directly.
+  - P.L. 94-171 files for the ten states in question. You can find information on how to download them [here](https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html). These should be placed in the `data/` directory as ZIP files with names like `al2020.pl.zip`.
