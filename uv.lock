@@ -1947,6 +1947,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "pandas" },
     { name = "pyogrio" },
+    { name = "topojson" },
     { name = "tqdm" },
 ]
 
@@ -1958,6 +1959,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.1" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "pyogrio", specifier = ">=0.13.0" },
+    { name = "topojson", specifier = ">=1.10" },
     { name = "tqdm", specifier = ">=4.70.0" },
 ]
 
@@ -2235,6 +2237,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a3/ae/2ca4913e5c0f09781d75482874c3a95db9105462a92ddd303c7d285d3df2/tinycss2-1.5.1.tar.gz", hash = "sha256:d339d2b616ba90ccce58da8495a78f46e55d4d25f9fd71dfd526f07e7d53f957", size = 88195, upload-time = "2025-11-23T10:29:10.082Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/60/45/c7b5c3168458db837e8ceab06dc77824e18202679d0463f0e8f002143a97/tinycss2-1.5.1-py3-none-any.whl", hash = "sha256:3415ba0f5839c062696996998176c4a3751d18b7edaaeeb658c9ce21ec150661", size = 28404, upload-time = "2025-11-23T10:29:08.676Z" },
+]
+
+[[package]]
+name = "topojson"
+version = "1.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "shapely" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/79/f3/74330050d8f7e05e140e6043302f71524e159f9a83bbee9681c86282f8fd/topojson-1.10.tar.gz", hash = "sha256:a7f53406324061a0310bec46740a6609147c24daeb354596c68345b9527b38c1", size = 25444042, upload-time = "2025-07-22T20:27:31.638Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/7a/2a8ea3b2b6e50cbec74c53082b69617d71f31e1247e35e65bf9a6edc44cf/topojson-1.10-py3-none-any.whl", hash = "sha256:0879d727c7798939e3268e8969fa87c2cd23274189fe3d8038a0fb11ff263925", size = 83318, upload-time = "2025-07-22T20:27:28.374Z" },
 ]
 
 [[package]]
